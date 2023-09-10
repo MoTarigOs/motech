@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/motech/static/css/main.96663ba1.css",
+    "main.js": "/motech/static/js/main.994fe830.js",
+    "static/media/background_video.mp4": "/motech/static/media/background_video.23c28b77d33b02414fad.mp4",
+    "static/media/pexels-hiren-lad-3031670.jpg": "/motech/static/media/pexels-hiren-lad-3031670.389f3e472939f6d27670.jpg",
+    "static/media/pexels-thiago-japyassu-1069798.jpg": "/motech/static/media/pexels-thiago-japyassu-1069798.7a70d0ba0c3b39f07035.jpg",
+    "static/media/drone2.png": "/motech/static/media/drone2.ad808ca5d0b6cadbd76b.png",
+    "static/media/ai_generated.jpg": "/motech/static/media/ai_generated.00ae7f5b62736320645b.jpg",
+    "static/media/laptop.jpg": "/motech/static/media/laptop.11e3c8fb44a5fc160cb1.jpg",
+    "static/media/vr.jpg": "/motech/static/media/vr.f37ff8bc2a25e487b435.jpg",
+    "static/media/xbox.jpg": "/motech/static/media/xbox.91b3e7006d4b10bb07c4.jpg",
+    "static/media/drone.jpg": "/motech/static/media/drone.f2e955a4cb888e3d10a3.jpg",
+    "static/media/instagram.svg": "/motech/static/media/instagram.b192c081583701c4515f.svg",
+    "static/media/whatsapp.svg": "/motech/static/media/whatsapp.946f279a7b2b98791b08.svg",
+    "static/media/GitHub-Mark.svg": "/motech/static/media/GitHub-Mark.3f5592eec3567bcd85cf.svg",
+    "index.html": "/motech/index.html",
+    "static/media/linkedin.svg": "/motech/static/media/linkedin.2a3767c6f265cd1fe21b.svg",
+    "static/media/icons8-facebook.svg": "/motech/static/media/icons8-facebook.53d3825cbc2aa0f65b24.svg",
+    "main.96663ba1.css.map": "/motech/static/css/main.96663ba1.css.map",
+    "main.994fe830.js.map": "/motech/static/js/main.994fe830.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96663ba1.css",
+    "static/js/main.994fe830.js"
+  ]
+}
