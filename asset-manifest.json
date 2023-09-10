@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/motech/static/css/main.63d2f9b5.css",
-    "main.js": "/motech/static/js/main.79016cb9.js",
+    "main.js": "/motech/static/js/main.92d53175.js",
     "static/media/background_video2.mp4": "/motech/static/media/background_video2.23fd5c339c2dfdadabae.mp4",
     "static/media/pexels-thiago-japyassu-1069798.jpg": "/motech/static/media/pexels-thiago-japyassu-1069798.f4258ebb540e7357dff1.jpg",
     "static/media/pexels-hiren-lad-3031670.jpg": "/motech/static/media/pexels-hiren-lad-3031670.269cd7e4b770db394722.jpg",
@@ -22,10 +22,10 @@
     "static/media/icons8-cross.svg": "/motech/static/media/icons8-cross.815e0745d63013903c32.svg",
     "static/media/menu_icon.svg": "/motech/static/media/menu_icon.0fc9c77362685ffdd60b.svg",
     "main.63d2f9b5.css.map": "/motech/static/css/main.63d2f9b5.css.map",
-    "main.79016cb9.js.map": "/motech/static/js/main.79016cb9.js.map"
+    "main.92d53175.js.map": "/motech/static/js/main.92d53175.js.map"
   },
   "entrypoints": [
     "static/css/main.63d2f9b5.css",
-    "static/js/main.79016cb9.js"
+    "static/js/main.92d53175.js"
   ]
 }
