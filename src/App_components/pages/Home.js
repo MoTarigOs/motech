@@ -1,7 +1,7 @@
 import './Home.css';
 import '../../index.css';
 import Button from '../../components/Button';
-import backgroundVideo from '../../Assets/images/background_video.mp4'
+import backgroundVideo from '../../Assets/images/background_video2.mp4'
 import Card from '../../components/Card';
 import AI_image from '../../Assets/images/ai_generated.jpg'
 import Drone_Image from '../../Assets/images/drone.jpg'
@@ -34,11 +34,7 @@ const Home = () => {
             setIsAnimating(true);
         }, 500)
 
-        return () => {
-            const firstRender = ref.current;
-            if(firstRender)
-                setCurrentPath("Home");
-        }
+        setCurrentPath("Home");
     }, [])
 
     return (

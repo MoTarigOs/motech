@@ -1,9 +1,6 @@
 import Button from '../../components/Button';
 import './Services.css';
-import image1 from '../../Assets/images/laptop.jpg';
-import image2 from '../../Assets/images/laptop.jpg';
-import image3 from '../../Assets/images/laptop.jpg';
-import image4 from '../../Assets/images/laptop.jpg';
+import image1 from '../../Assets/images/service_laptop.jpg';
 import { useContext, useEffect, useRef, useState } from 'react';
 import { DataContext } from '../../DataContext';
 import Card2 from '../../components/Card2';
@@ -38,19 +35,19 @@ const Services = ({ footerRef, sendTextRef }) => {
         id: 1
     },
     {
-        image: image2,
+        image: image1,
         description: "We offer you design and development services",
         price: "$1000",
         id: 2
     },
     {
-        image: image3,
+        image: image1,
         description: "We offer you design and development services",
         price: "$1000",
         id: 3
     },
     {
-        image: image4,
+        image: image1,
         description: "We offer you design and development services",
         price: "$1000",
         id: 4
@@ -62,19 +59,19 @@ const Services = ({ footerRef, sendTextRef }) => {
         id: 1
     },
     {
-        image: image2,
+        image: image1,
         description: "We offer you design and development services",
         price: "$1000",
         id: 2
     },
     {
-        image: image3,
+        image: image1,
         description: "We offer you design and development services",
         price: "$1000",
         id: 3
     },
     {
-        image: image4,
+        image: image1,
         description: "We offer you design and development services",
         price: "$1000",
         id: 4

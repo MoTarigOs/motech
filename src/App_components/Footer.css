@@ -136,16 +136,21 @@
     }
 
     .footerBottom .navLogoContainer{
-        margin-right: 0;
-        justify-content: center;
-        padding-right: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footerBottom .navLogoContainer h1{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .footerLogos{
         width: 220px;
-        margin-left: 0;
-        padding-right: 0;
-
+        margin: 0;
+        padding: 0;
     }
 
     .footerTopSec p {
@@ -155,6 +160,11 @@
 }
 
 @media screen and (max-width: 420px){
+
+    .root{
+        max-width: 100%;
+    }
+
     .footerMidSec {
         width: 100%;
         align-items: center;
@@ -175,13 +185,17 @@
 
 @media screen and (max-width: 360px){
 
+    .footerForm{
+        max-width: 100%;
+    }
+
     .footerForm label {
         font-size: 1rem;
-        margin-left: 12px;
+        margin-left: 8px;
     }
     
     .footerForm div {
-        padding: 0px 12px;
+        padding: 0px 8px;
         flex-wrap: wrap;
     }
 
@@ -189,6 +203,10 @@
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .footerTopSec p {
+        margin: 0 8px;
     }
 }
 

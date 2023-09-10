@@ -101,19 +101,17 @@ const Nav = () => {
 
                     {isMobile && !mobileIsClick &&
                         <div className="menuBarDiv"
-                        >   <span className="material-symbols-outlined"
+                        >   <i className="menu_icon"
                                 onClick={handleMobileClick}            
-                            > menu
-                            </span>  
+                            ></i>  
                         </div>
                     }
 
                     {isMobile && mobileIsClick && 
                         <div className="menuBarDiv"
-                        >   <span className="material-symbols-outlined"
+                        >   <i className="close_icon"
                                 onClick={handleMobileClick}            
-                            > close
-                            </span>  
+                            ></i>  
                         </div>
                     }
 

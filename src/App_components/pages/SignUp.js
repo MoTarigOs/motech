@@ -1,6 +1,6 @@
 import './SignUp.css'
 import captcha from '../../Assets/images/captcha.jpg'
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import { DataContext } from '../../DataContext';
 
 const SignUp = () => {

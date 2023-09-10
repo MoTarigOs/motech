@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import { Routes, Route } from 'react-router-dom'
 import Nav from './App_components/Nav'
 import Home from './App_components/pages/Home';
