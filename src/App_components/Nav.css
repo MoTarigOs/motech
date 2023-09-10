@@ -1,0 +1,182 @@
+:root{
+    --navBackgroundColor: #1b0743;
+}
+
+.NavContainer{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.Nav {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navBackgroundColor);
+    max-width: 1300px;
+    position: relative;
+}
+
+.backDiv{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -2;
+}
+
+.backDiv2{
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    background-color: var(--navBackgroundColor);
+    z-index: -1;
+}
+
+.navLogoContainer{
+    max-width: fit-content;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    padding-left: 24px;
+}
+
+.navLogoContainer img{
+    width: 100%;
+    height: 100%;
+    scale: 1.48;
+    transform: translateY(1px);
+    border-radius: 2px;
+}
+
+.navLogoContainer:hover{
+    transform: scale(1.02);
+    transition: all 0.35s ease-in;
+}
+
+.navLogoContainer:active{
+    transform: scale(0.98);
+    transition: all 0.05s ease-in;
+}
+
+.navLogoContainer h1{
+    height: 100%;
+    font-size: 2rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.navLogoContainer h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.navLogoContainer img{
+    width: 16px;
+    height: 16px;
+}
+
+.navElementsContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navElementsContainer ul{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.navElementsContainer .desktop_div ul{
+    gap: 0px;
+}
+
+.navElementsContainer ul li{
+    height: 48px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navElementsContainer .desktop_div ul li{
+    padding: 0 16px;
+}
+
+.navElementsContainer .menuBarDiv {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.navElementsContainer .menuBarDiv span{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@keyframes mobileNavBarAnimationAdd {
+    0% {transform: translate(-100%, 0);}
+    100% {transform: translate(0, 0);}
+}
+
+@keyframes mobileNavBarAnimationRemove {
+    0% {transform: translate(0, 0);}
+    100% {transform: translate(-100%, 0);}
+}
+
+.mobile_div{
+    height: 100vh;
+    width: 100%;
+    animation-name: mobileNavBarAnimationAdd;
+    animation-duration: 0.3s;
+}
+
+.removeMobileDiv{
+    animation-name: mobileNavBarAnimationRemove;
+    animation-duration: 0.3s;
+}
+
+.mobile_div ul{
+    background-color: var(--navBackgroundColor);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+
+.mobile_div ul li {
+    list-style: none;
+    width: 100%;
+    height: 54px;
+    text-align: center;
+}
+
+.displayNone{
+    display: none;
+}
+

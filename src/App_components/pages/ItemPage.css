@@ -1,0 +1,122 @@
+.Wrapper{
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.Wrapper .ItemPage{
+    width: 100%;
+    height: fit-content;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.Wrapper .ItemPage .ItemImageDiv{
+    width: 100%;
+    max-width: 900px;
+    height: fit-content;
+}
+
+.Wrapper .ItemPage .ItemPageImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Wrapper .ItemPage .ItemInfoDiv{
+    width: 100%;
+    max-width: 900px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.Wrapper .ItemPage .ItemInfoDiv .desc{
+    font-size: 2.45rem;
+    font-weight: 500;
+}
+
+.Wrapper .ItemPage .ItemInfoDiv h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(45, 45, 45, 0.767);
+}
+
+.Wrapper .ItemPage .ItemInfoDiv .details{
+    font-size: 1.2rem;
+    font-weight: 350;
+    background: rgb(240, 240, 240);
+    padding: 16px 24px;
+    border-radius: 6px;
+}
+
+.Wrapper .ItemPage .ItemInfoDiv .details span{
+    color: rgba(0, 0, 0, 0.985);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Wrapper .ItemPage .ItemInfoDiv .details span:hover{
+    color: rgba(0, 0, 0, 0.766);
+}
+
+.Wrapper .ItemPage .ItemInfoDiv .details span:active{
+    color: rgba(0, 0, 0, 0.949);
+    background: rgba(173, 173, 173, 0.488);
+}
+
+@media screen and (max-width: 930px){
+    .Wrapper{
+        align-items: start;
+    }
+
+    .Wrapper .ItemPage{
+        gap: 0;
+    }
+
+    .Wrapper .ItemPage .ItemInfoDiv .desc{
+        font-size: 2.95rem;
+        margin-top: 12px;
+    }
+    
+    .Wrapper .ItemPage .ItemInfoDiv h2{
+        font-size: 1.95rem;
+    }
+
+    .Wrapper .ItemPage .ItemInfoDiv .details{
+        font-size: 1.73rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Wrapper .ItemPage{
+        padding: 8px;
+    }
+
+    .Wrapper .ItemPage .ItemInfoDiv .desc{
+        margin-top: 12px;
+        font-size: 1.62rem;
+    }
+    
+    .Wrapper .ItemPage .ItemInfoDiv h2{
+        font-size: 1.05rem;
+    }
+    .Wrapper .ItemPage .ItemInfoDiv .details{
+        margin-top: 12px;
+        font-size: 1rem;
+        padding: 4px 8px;
+    }
+}

@@ -1,0 +1,223 @@
+.Footer{
+    width: 100%;
+    height: fit-content;
+    padding: 64px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1b0743fc;
+}
+
+.footerTopSec{
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.footerTopSec p {
+    background: transparent;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.footerForm{
+    width: fit-content;
+    max-width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footerForm label {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: start;
+}
+
+.footerForm div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.footerForm input{
+    height: fit-content;
+    padding: 12px;
+    flex-grow: 1;
+    padding-left: 12px;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+}
+
+.footerMidSec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+.footerMidSecUls{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 32px;
+    gap: 64px;
+}
+
+.footerMidSecUls ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footerBottom{
+    width: 100%;
+    max-width: 1300px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottom .navLogoContainer{
+    margin-right: auto;
+    width: 220px;
+    max-width: 220px;
+}
+
+.footerBottom P{
+    height: 100%;
+    color: white;
+    background: transparent;
+    display: flex;
+    align-items: end;
+}
+
+.footerLogos{
+    width: 220px;
+    margin-left: auto;
+    padding-right: 16px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.footerLogos a {    
+    transition: all 0.3s ease;
+}
+
+.footerLogos a:hover{
+    transition: all 0.3s ease;
+    transform: scale(0.75);
+}
+
+@media screen and (max-width:960px) {
+    .footerBottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .footerBottom .navLogoContainer{
+        margin-right: 0;
+        justify-content: center;
+        padding-right: 16px;
+    }
+
+    .footerLogos{
+        width: 220px;
+        margin-left: 0;
+        padding-right: 0;
+
+    }
+
+    .footerTopSec p {
+        margin-left: 16px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .footerMidSec {
+        width: 100%;
+        align-items: center;
+        padding: 48px 0px;
+    }
+    
+    .footerMidSecUls{
+        width: fit-content;
+        flex-direction: column;
+        align-items: start;
+        gap: 64px;
+    }
+    
+    .footerMidSecUls ul{
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .footerForm label {
+        font-size: 1rem;
+        margin-left: 12px;
+    }
+    
+    .footerForm div {
+        padding: 0px 12px;
+        flex-wrap: wrap;
+    }
+
+    .footerLogos{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.icon {
+    background-position: 0 0; 
+    width: 44px; 
+    height: 44px;
+    display: inline-block;
+    overflow: hidden;
+    transform: scale(0.6);
+}
+
+.facebook{
+    background: url('.././Assets/icons/icons8-facebook.svg') no-repeat top left;
+}
+
+.whatsapp{
+    background: url('.././Assets/icons/whatsapp.svg') no-repeat top left;
+}
+
+.Linkedin{
+    background: url('.././Assets/icons/linkedin.svg') no-repeat top left;
+}
+
+.GitHub{
+    background: url('.././Assets/icons/GitHub-Mark.svg') no-repeat top left;
+    border-radius: 50%;
+}
+
+.instagram{
+    background: url('.././Assets/icons/instagram.svg') no-repeat top left;
+}

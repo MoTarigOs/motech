@@ -1,0 +1,163 @@
+.btn{
+    height: 100%;
+    min-width: auto;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.mobileNavElements:hover{
+    .btn{
+        width: 100%;
+        color: black;
+        background: white;  
+    }
+    
+}
+
+.selected{
+    background: rgba(255, 255, 255, 0.193);
+}
+
+.middleSizeBtn{
+    font-size: 18px;
+}
+
+.navBarDesktopBtn::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    height: 3px;
+    width: 0;
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+.navBarDesktopBtn:hover::after{
+    width: 100%;
+    left: 0;
+    transition: all 0.3s ease-in;
+}
+
+.Sign-up{
+    border: 2px solid white;
+    padding: 0px 16px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.Sign-up-sel a button{
+    color: black;
+    background: white;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    position: relative;
+    padding: 0 16px;
+}
+
+.Sign-up::before{
+    content: 'Sign Up';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-out;
+}
+
+.Sign-up:hover{
+    transition: all 0.3s ease-out;
+    color: transparent;
+}
+
+.Sign-up:hover::before{
+    transition: all 0.3s ease-in;
+    width: 100%;
+    font-size: 16px;
+}
+
+.largeSizeBtn{
+    font-size: 24px;
+}
+
+.primaryBtn{
+    background: white;
+    border-radius: 2px;
+    border: none;
+    color: black;
+    padding: 24px 32px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.primaryBtn:hover{
+    background: rgba(255, 255, 255, 0.86);
+    transition: all 0.3s ease;
+}
+
+.outlineBtn{
+    background: transparent;
+    border-radius: 2px;
+    border: 2px solid white;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 24px 32px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.outlineBtn:hover{
+    background: white;
+    color: black;
+    transition: all 0.38s ease-in;
+}
+
+.footerFormBtn{
+    width: auto;
+    height: 100%;
+    background: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+
+.footerFormBtn:hover{
+    background: rgba(255, 255, 255, 0.886);
+}
+
+.footerBtn{
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.92);
+    transition: all 0.3s ease-in;
+}
+
+.footerHeaderBtn{
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.94);
+    transition: all 0.3s ease-in;
+}
+
+.footerBtn:hover{
+    transition: all 0.3s ease-out;
+    text-decoration: underline;
+}
+
+.footerHeaderBtn:hover{
+    transition: all 0.3s ease-out;
+    text-decoration: underline;
+}
